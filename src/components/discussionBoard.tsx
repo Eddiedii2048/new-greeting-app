@@ -12,6 +12,7 @@ export default function discussionBoard() {
         <div>
             <MessageInput sentToList={handleSend}/>
             <MessageList messages = {messages}/>
+            <MessageList messages = {messages}/>
         </div>
     );
 }
